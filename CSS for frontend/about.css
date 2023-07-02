@@ -1,0 +1,236 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Work+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f2f1ff;
+}
+.banner {
+    /* background-color: gray; */
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0, 0, 0, 0.2)), url(/images/mm.jpg);
+    background-attachment: scroll;
+    background-color: #959595;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right top;
+    color: #ffffff;
+    font-family: 'Work Sans', sans-serif;
+    font-size:3em;
+    font-weight: 900;
+    height: 4.5em;
+}
+
+.line {
+    width: 4em;
+    height: 2px;
+    border-width: 0;
+}
+
+.positioning {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5em;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 1.5em;
+    padding-top: 0.5em;
+}
+
+.vision {
+    background-image: url(/images/reshot-illustration-system-user-login-GTQRL8HFXU.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: white;
+    background-position: right;
+    height: 30em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: flex-start; */
+    /* margin: 5em 2em; */
+}
+
+@media(max-width:1227px){
+    .vision {
+        background-image: none;
+        display: flex;
+        align-items: center;
+        margin-left: -67px;
+        /* margin-right: auto; */
+
+        
+        /* margin: 5em 2em; */
+    }
+
+}
+
+@media(max-width:500px){
+    #vision {
+        background-image: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+        /* margin: 5em 2em; */
+    }
+
+}
+
+.v , .m {
+    background-color: #F6F6FF;
+    border-radius: 3px;
+    margin: 0 2em 0em 5em;
+    width: 48em;
+    height: 12em;
+    display: flex;
+    flex-direction: row;
+    /* column-gap: 1em; */
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+}
+
+
+@media (max-width:1225px){
+    .v {
+        width: 90%;
+    margin: 0 2em 0em 2em;
+
+    }
+}
+@media(max-width:545px){
+    .v {
+      
+     display: flex;
+    flex-direction: column;
+    margin: 0 2em 0em 2em;
+   
+    
+    }
+
+}
+@media(max-width:545px){
+    #mission{
+      
+     display: flex;
+    flex-direction: column;
+    margin: 0 2em 0em 2em;
+
+   
+    
+    }
+
+}
+
+.m{
+    background-color: #F6F6FF;
+    border-radius: 3px;
+    margin: 2em 2em 0em 5em;
+    width: 48em;
+    height: 12em;
+    display: flex;
+    flex-direction: row;
+    /* column-gap: 1em; */
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+}
+
+@media(max-width:1227px){
+ .m {
+   
+        width: 90%;
+        
+    
+    }
+
+}
+
+
+
+
+.log {
+    margin-left: 0.4em;
+    margin-right: 1em;
+}
+
+
+
+
+.log2{
+    margin: 0 1.8em 0 1em;
+}
+.inf{
+    margin-right: 1em;
+    padding-right: 1em;
+}
+
+.info3 {
+    /* background-image: url(/images/reshot-illustration-microchip-technology-7DTCV463WA.png) ; */
+    background-color: #f2f1ff;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    padding: 4em;
+    margin: 5em 2em;
+    height: 35em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+/* .info6{
+    height: 30em;
+    width: 40em;
+} */
+.info5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 1em;
+    font-family: 'Montserrat', sans-serif;
+    width: 40em;
+    text-align: justify;
+    align-items: flex-start;
+}
+
+.core-values{
+    padding: 1em;
+    height: fit-content;
+    background-color: #f2f1ff;
+}
+
+.core-values h1{
+    font-family: 'Work Sans', sans-serif;
+    font-size: x-large;
+    font-weight: 600;
+    color: #5d4298;
+    margin: 1em 0;
+}
+
+.core-values p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: larger;
+    text-align: justify;
+    margin: 1em 0;
+}
+
+.heading{
+    text-align: center;
+    padding: 0.5em;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 900; 
+    font-size: 3em; 
+    color: #5d4298;
+    background-color: white;
+    margin: 0em 0.7em;
+    border-radius: 6px;
+}
+

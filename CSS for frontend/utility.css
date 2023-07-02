@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Work+Sans&display=swap');
+
+*,
+
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+}
+
+
+.para{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contacts {
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)), url(/images/cont.jpg)  ;
+    background-color: #121C25;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    /* background-size: auto 30em; */
+    background-size: contain;
+    background-position: right top;
+    color: #ffffff;
+    font-family: 'Work Sans', sans-serif;
+    font-size:3em;
+    font-weight: 900;
+    height: 4.5em;
+}
+
+.opportunity{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.4)), url(/images/G7.2.jpg)  ;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    background-size: cover;
+    color: #ffffff;
+    font-family: 'Work Sans', sans-serif;
+    font-size:3em;
+    font-weight: 900;
+    height: 4.5em;
+}
+
+.banner {
+    /* background-color: gray; */
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0, 0, 0, 0.2)), url(/images/mm.jpg);
+    background-attachment: scroll;
+    background-color: #959595;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right top;
+    color: #ffffff;
+    font-family: 'Work Sans', sans-serif;
+    font-size:3em;
+    font-weight: 900;
+    height: 4.5em;
+}
+
+
+.positioning {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5em;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 1.5em;
+    padding-top: 0.5em;
+}
+
+.line {
+    width: 4em;
+    height: 2px;
+    border-width: 0;
+}
+
+
+.wrapper{
+    background-color: aqua;
+}
+
+@media (max-width :980px){
+.header{
+ position: relative;
+} 
+
+
+.mobile-nav-btn{
+    display: block;
+    z-index: 9999;
+    border: 2px solid rebeccapurple;
+    color : #212929;
+}
+}
+
+.mobile-nav-icon[name="close-outline"]{
+    display: none;
+}
+
+.mobile-nav-icon{
+    width: 5rem;
+    height: 5rem;
+}
